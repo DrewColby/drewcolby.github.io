@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="https://drewcolby.github.io/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <h1>Cheat Sheet</h1>
+
+    <div class="Section-Container">
+        <h2>CSS Combo Selecting</h2>
+    <!--Table-->
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th><h3 id="Type">Type</h3></th>
+                <th><h3 id="Example">Example</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="Text">
+                    <h4>Grouping Separate Selectors</h4>
+                    <p>Match multiple selectors to the same CSS rule, using a comma-separated list. In this example, the text for both <span class="Code">h1</span> and <span class="Code">h2</span> is set to red.</p>
+                </td>
+                <td>
+                   <img class="Example-Image" src="/images/Grouping-Seperate-Selectors.png">
+                </td>
+            </tr>
+            <tr>
+                <td class="Text">
+                    <h4>Chaining Selectors</h4>
+                    <p>CSS selectors can be chained so that rule sets apply only to elements that match all criteria. For instance, to select elements that also have the section-heading class, the selector <span class="Code">h3.section-heading</span> can be used.</p>
+                </td>
+                <td>
+                    <img class="Example-Image" src="images/Chaining-Selectors.png">
+                </td>
+            </tr>
+            <tr>
+                <td class="Text">
+                    <h4>Descendant Selectors</h4>
+                    <p>The CSS descendant selector combinator is used to match elements that are descended from another matched selector. They are denoted by a single space between each selector and the descended selector. All matching elements are selected regardless of the nesting level in the HTML.</p>
+                </td>
+                <td>
+                    <img class="Example-Image" src="/images/Descendant-Selectors.png">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

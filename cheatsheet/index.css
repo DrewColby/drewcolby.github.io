@@ -1,0 +1,80 @@
+* {
+    font-family: Inter;
+}
+
+Body {
+    margin: 50px 0;
+}
+h1 {
+    width: 65vw;
+    margin: 25px auto;
+    text-align: center;
+}
+
+h2 {
+    margin: 25px 0 0 25px;
+}
+
+h3 {
+    background-color: #0872E7;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+table {
+    margin: auto;
+    padding: 0 25px 25px 25px;
+}
+
+#Type {
+    margin-right: 10px;
+}
+
+#Example {
+    margin-left: 10px;
+}
+
+.Example-Image {
+    max-width: 400px;
+    margin-left: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+td, th {
+    padding: 20px 0px;
+    margin: 0px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+.Text {
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.Code {
+    font-family: 'IBM Plex Mono';
+    background-color: rgb(221, 255, 159);
+}
+
+.Section-Container {
+    border: 1px solid rgb(183, 183, 183);
+    width: 70%;
+    margin: auto;
+}
